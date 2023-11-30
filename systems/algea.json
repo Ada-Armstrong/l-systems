@@ -1,0 +1,9 @@
+{
+    "iters": 10,
+    "alphabet": ["A", "B"],
+    "axiom": ["A"],
+    "rules": {
+        "A": ["A", "B"],
+        "B": ["A"]
+    }
+}
