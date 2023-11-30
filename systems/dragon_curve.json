@@ -1,0 +1,15 @@
+{
+    "iters": 10,
+    "alphabet": ["F", "G", "+", "-"],
+    "axiom": ["F"],
+    "rules": {
+        "F": ["F", "+", "G"],
+        "G": ["F", "-", "G"]
+    },
+    "interpretation": {
+        "F": [{"forward": 10.0}],
+        "G": [{"forward": 10.0}],
+        "-": [{"left": 90.0}],
+        "+": [{"right": 90.0}]
+    }
+}

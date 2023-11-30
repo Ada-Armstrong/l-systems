@@ -31,7 +31,7 @@ fn main() {
     }
 
     // println!("0: {}", system.axiom[0]);
-    let n = system.iters;
+    let n = system.iters + 1;
     let mut line = None;
     for _ in 1..n {
         line = system.step(line);
