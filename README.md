@@ -1,8 +1,6 @@
 # L-Systems
 
-<img src="imgs/plant.svg" width="200" heigh="300">
-<img src="imgs/dragon.svg" width="300" heigh="300">
-<img src="imgs/binary.svg" width="200" heigh="300">
+<img src="imgs/dragon.svg" width="300" height="300" style="background-color:white">
 
 ## Summary
 A command line tool that outputs images of L-Systems that are specified in a json format.
